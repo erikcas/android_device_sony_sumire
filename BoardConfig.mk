@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/kitakami/BoardConfig.mk
+include device/sony/kitakami-common/BoardConfig.mk
+include device/sony/kitakami-common/BoardConfigOmni.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
