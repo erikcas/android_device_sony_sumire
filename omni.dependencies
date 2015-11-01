@@ -30,6 +30,12 @@
     "revision":     "android-5.1"
   },
   {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_aosp-sepolicy",
+    "target_path":  "device/qcom/aosp-sepolicy",
+    "revision":     "android-6.0"
+  },
+  {
     "remote": "erikcas",
     "repository": "android_hardware_qcom_display-caf-bfam",
     "target_path": "hardware/qcom/display-caf-bfam",
