@@ -37,6 +37,12 @@
   },
   {
     "remote": "erikcas",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-5.1"
+  },
+  {
+    "remote": "erikcas",
     "repository": "android_hardware_qcom_media-caf-bfam",
     "target_path": "hardware/qcom/media-caf-bfam",
     "revision": "android-5.1-msm8994"
