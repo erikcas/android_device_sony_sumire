@@ -3,7 +3,7 @@
     "remote":       "erikcas",
     "repository":   "android_device_sony_kitakami-common",
     "target_path":  "device/sony/kitakami-common",
-    "revision":     "android-6.0-cas"
+    "revision":     "android-6.0-fun"
   },
   {
     "remote":       "erikcas",
