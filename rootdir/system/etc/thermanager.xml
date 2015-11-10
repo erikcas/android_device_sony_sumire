@@ -84,7 +84,7 @@
 		<resource name="camera" type="echo" />
 		<resource name="modem" type="echo" />
 
-		<resource name="shutdown" type="halt" delay="5" />
+		<resource name="shutdown" type="echo" delay="5" />
 	</resources>
 
 	<control name="usb">
