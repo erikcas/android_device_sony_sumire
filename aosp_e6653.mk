@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
     device/sony/sumire/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/sumire/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/sony/sumire/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+
 PRODUCT_NAME := aosp_e6653
 PRODUCT_DEVICE := sumire
 PRODUCT_MODEL := Xperia Z5 (AOSP)
