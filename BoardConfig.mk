@@ -16,3 +16,6 @@ include device/sony/kitakami/BoardConfig.mk
 include device/sony/kitakami/BoardConfigOmni.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := E6653,sumire
