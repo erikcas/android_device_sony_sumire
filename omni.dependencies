@@ -3,13 +3,13 @@
     "remote":       "erikcas",
     "repository":   "android_device_sony_kitakami-common",
     "target_path":  "device/sony/kitakami-common",
-    "revision":     "android-5.1"
+    "revision":     "android-5.1-cas"
   },
   {
     "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "android-6.0-msm8994"
+    "revision":     "android-5.1-test"
   },
   {
     "remote":       "omnirom",
@@ -31,26 +31,8 @@
   },
   {
     "remote": "erikcas",
-    "repository": "android_hardware_qcom_display-caf-bfam",
-    "target_path": "hardware/qcom/display-caf-bfam",
-    "revision": "android-5.1-msm8994"
-  },
-  {
-    "remote": "erikcas",
     "repository": "android_hardware_qcom_gps",
     "target_path": "hardware/qcom/gps",
     "revision": "android-5.1"
-  },
-  {
-    "remote": "erikcas",
-    "repository": "android_hardware_qcom_media-caf-bfam",
-    "target_path": "hardware/qcom/media-caf-bfam",
-    "revision": "android-5.1-msm8994"
-  },
-  {
-    "remote": "erikcas",
-    "repository": "android_frameworks_av",
-    "target_path": "frameworks/av-caf",
-    "revision": "android-5.1-msm8994"
   }
 ]
