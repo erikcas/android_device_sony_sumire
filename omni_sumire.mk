@@ -18,6 +18,9 @@ TARGET_KERNEL_SOURCE := kernel/sony/msm
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E6653,sumire
 
+# Don't use DSPManager
+TARGET_NO_DSPMANAGER := true
+
 # TWRP Recovery
 DEVICE_RESOLUTION := 1080x1920
 
@@ -35,8 +38,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/sony/sumire/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
-    device/sony/sumire/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+    device/sony/sumire/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device
 
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_sumire
