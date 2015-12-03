@@ -9,7 +9,7 @@
     "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "android-5.1-test"
+    "revision":     "android-5.1-cas"
   },
   {
     "remote":       "omnirom",
