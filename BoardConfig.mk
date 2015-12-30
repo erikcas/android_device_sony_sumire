@@ -16,3 +16,6 @@ include device/sony/kitakami-common/BoardConfig.mk
 include device/sony/kitakami-common/BoardConfigOmni.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+TARGET_TAP_TO_WAKE_STRING := true
