@@ -20,6 +20,9 @@ DEVICE_RESOLUTION := 1440x814
 TW_THEME := portrait_hdpi
 TW_IGNORE_ABS_MT_TRACKING_ID := true
 
+# Init variant check
+TARGET_LIBINIT_DEFINES_FILE := device/sony/common/init_sony.cpp
+
 # Inherit AOSP Rhine common device parts
 $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
 
